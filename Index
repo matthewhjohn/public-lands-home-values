@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Public Lands and Housing Costs</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #ffffff;
+			font-family: "Noto Sans", sans-serif;
+			color: #3d3d3d;
+		}
+
+		section {
+			/* width: 960px; */
+			width: 60%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: "Oswald", sans-serif;
+			font-weight: bold;
+			font-size: 7em;
+			line-height: .05em;
+			letter-spacing: .04em;
+		}
+
+		h2 {
+			font-family: "Oswald", sans-serif;
+			line-height: .1em;
+			letter-spacing: .04em;
+		}
+
+		h3 {
+			font-family: "Oswald", sans-serif;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: .95em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			font-family: "Oswald", sans-serif;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			font-family: "Oswald", sans-serif;
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 10px auto;
+			border: 2px solid #d3d3d3;
+		}
+
+		/* add custom style class here */
+
+	</style>
+</head>
+
+<body>
+	<section>
+
+		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
+
+		<h1>KANSAS</h1>
+		<h1>VS.</h1>
+		<h1>COLORADO</h1>
+		<hr>
+		<h2 align="right">Does presence of public lands correlate to housing costs?</h2>
+		<p align="right">by Matthew John</p>
+		<br>
+		<br>
+		<br>
+		<p>Having lived significant portions of my life in both Kansas and Colorado, I am familiar with the plethora of similarities and differences between the two states. Though the states of Kansas and Colorado share a common border, and thus share certain geographic similarities (both, for instance, have relatively small populations), the two states are very different in certain other respects.</p>
+		<p>The amount of public land in each state is a major difference between Kansas and Colorado; Kansas has one of the lowest percentages of public land in the United States, whereas Colorado, being part of the so-called Intermountain West, has a relatively high amount of public land. The first map, immediately below, shows these differences:</p>
+		<p></p>
+		<br>
+		<h3>Percent of county in public land: Kansas vs. Colorado.</h3>
+		<div id='map'>
+				<!-- Add your custom iframe 'Embed it' code here -->
+				<iframe width="100%" height="640" frameborder="0" src="https://nmp.carto.com/u/mhjo228/builder/3f651954-b0b3-49ba-8504-aab3711a1657/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+		</div>
+		<p><a href="https://nmp.carto.com/u/mhjo228/builder/f953154a-13b4-4996-a5a0-674272654699/embed">Enlarge map</a></p>
+		<br>
+		<p>Another significant difference between Kansas and Colorado is the cost of housing.
+		<p>Kansas, being especially rural and agricultural, has a relatively small and slowly growing population — and as such, it experiences relatively low housing costs. People are not thronging to Kansas to take up jobs in the agricultural sector; indeed, many jobs are leaving rural areas, as automation takes over agricultural industries. In fact, many rural counties in Kansas have lost significant percentages of their populations since those populations peaked between 1920 and 1940. Even the more densely populated portions of Kansas — Wichita, Lawrence, Manhattan, and the surburban areas of Kansas City, for example — though they do have higher housing costs generally, not bursting at the seams.</p>
+		<p>Colorado, on the other hand, has been experiencing a veritable population boom. People are flocking to the so-called Front Range, as well as to the more remote parts of Colorado — and housing prices have been rising as a result. In some areas — Denver and Boulder, Aspen and Telluride — rents and home values are approaching those of cities like New York and San Francisco.</p>
+		<br>
+		<h3>Median home value, by county: Kansas vs. Colorado.</h3>
+		<div id='map'>
+				<!-- Add your custom iframe 'Embed it' code here -->
+				<iframe width="100%" height="640" frameborder="0" src="https://nmp.carto.com/u/mhjo228/builder/f953154a-13b4-4996-a5a0-674272654699/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+		</div>
+		<a href="https://nmp.carto.com/u/mhjo228/builder/f953154a-13b4-4996-a5a0-674272654699/embed">Enlarge map</a>
+		<!-- Add 'Enlarge map' link using the iframe URL from above -->
+		<br>
+		<br>
+		<p>So what brings people to Colorado? The state currenctly has one of the lowest unemployment rates in the nation, so the vast majority of the newly transplanted are obviously finding work. The work, though, isn't in the primary economic sector — extractive industries, in other words. Instead, many of the jobs are in the service and knowledge sectors of the economy.</p>
+		<p>So it's not the land itself that brings people to Colorado — or is it?</p>
+		<p>The point of this project is to suggest that it is <em>indeed</em> the land that brings people to Colorado — the beautiful, mountianous public lands, in particular. Colorado's vast public lands are home to the breathtaking views and myriad recreational opportunities that so many people have been moving to the state to take advantage of. And in an economy like the one we find ourselves in now, where so much work can be done from anywhere, why not make your anywhere somewhere beautiful?</p>
+		<p>Housing costs are, of course, affected by a multitude of factors — too multitudinous to list here. In the cases of Colorado and Kansas, though, a significant portion of the difference in housing prices between these two states might just be due to the correspondingly significant difference in the amount of public land each state has to offer.</p>
+		<br>
+		<br>
+		<!-- Add you information below -->
+
+		<hr>
+		<h3>Map details:</h3>
+		<p>Map and text prepared by Matthew John, March 2018
+			<br>Department of Geography, University of Kentucky.</p>
+		<ul>
+		<li>On both maps, click on individual counties to view data pertinent to that county (either median home value or percentage of the county that is public land, depending on the map).
+		<li>Public lands data from the <a href="https://gapanalysis.usgs.gov/padus/data/download/">USGS Protected Areas Database of the United States</a> USGS Protected Areas Database of the United States (PAD-US).
+		<li>Median home value data for 2017 Q2 from the <a href="https://www.nar.realtor/sites/default/files/documents/2017-q2-county-median-home-prices-monthly-mortgage-payment-by-state-and-county-name-10-03-2017.pdf">National Association of Realtors</a>.
+		<br>
+		</ul>
+
+		<p>Visit Matthew John's <a href="https://github.com/matthewhjohn">mapping portfolio.</a></p>
+
+
+	</section>
+
+</body>
+
+</html>
